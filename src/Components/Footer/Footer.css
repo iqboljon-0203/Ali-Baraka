@@ -1,0 +1,105 @@
+.footer{
+    padding: 80px 0;
+    background: #037B35;
+ 
+}
+
+.footer-header, .footer-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left p{
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+/* padding: 2px 0; */
+
+color: #FFFFFF;
+}
+.footer-map{
+    margin-top: 20px;
+}
+
+.footer-title{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+
+
+color: #FFFFFF;
+
+}
+
+.footer-link{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+transition: 0.3s;
+color: #60B45A;
+
+}
+.footer-item{
+    padding:7px 0;
+}
+
+.footer-list{
+    padding: 0px 75px;
+}
+
+.footer-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-bottom, .bottom-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-subtext{
+    font-style: normal;
+font-weight: 400;
+font-size: 13.5px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.bottom-text{
+    font-style: normal;
+font-weight: 400;
+font-size: 13.5px;
+line-height: 17px;
+/* identical to box height */
+
+padding-right: 25px;
+color: #FFFFFF;
+
+}
+.bottom-item{
+    padding: 0px 10px;
+}
+
+.footer-bottom{
+    margin-top: 25px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);;
+}
+
+
+
+.footer-left .footer-lists{
+    display: none;
+}

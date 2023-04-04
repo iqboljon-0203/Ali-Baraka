@@ -1,0 +1,120 @@
+.story{
+    padding: 80px 0;
+}
+.story-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.story-list{
+    width: 30%;
+     
+ 
+    
+    border-radius: 12px;
+    transition: 0.3s;
+    margin: 20px 0;
+    height: 337px;
+    padding: 20px;
+    padding-bottom: 30px;
+    transition: 0.3s;
+    padding-top: 10px;
+    border: 2px solid #D9DCEC;
+    /* box-shadow: 2px 2px 0px rgb(139, 139, 139); */
+}
+.story-list:hover{
+    cursor: pointer;
+    border: 2px solid #037B35;
+}
+
+ 
+.story-title{
+    width: 350px;
+    /* padding: 10px 0; */
+    margin: 5px 0;
+    
+    text-align: start;
+    font-weight: 600;
+    color: rgb(82, 147, 82);
+    overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: wrap;
+   width: 279px;
+   /* padding: 10px 0; */
+   height: 46px;
+   /* background-color: red; */
+   font-size: 18px;
+}
+.story-text{
+    
+    padding-top: 0;
+    width: 350px;
+    font-size: 15px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height:15px;
+    color:#fbfbfb;
+}
+ 
+
+
+.story-name{
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+.story-img{
+    object-fit: cover;
+    width: 300px;
+    height: 150px;
+}
+
+.story-text{
+    width: 300px;
+     height: 90px;
+   color: #a1a5a8;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: wrap;
+}
+.story-fade{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width:520px) {
+    .container{
+        width: 300px;
+    }
+
+    .story .story-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .story  .story-list{
+        width: 100%;
+        max-height: 320px !important;
+    }
+    .story-img{
+        width: 100%;
+
+        height: 110px;
+    }
+    .story-title{
+        width: 100%;
+        font-size: 18px;
+    }
+    .story-text{
+        font-size: 12px;
+        width: 100%;
+        max-height: 120px !important;
+    }
+}

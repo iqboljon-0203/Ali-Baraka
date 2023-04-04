@@ -1,0 +1,231 @@
+.content .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 35px;
+    /* or 88% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #037B35;
+
+}
+
+.content-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    /* or 173% */
+width: 480px;
+    padding: 20px 0;
+    color: #1E252B;
+}
+
+.client .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+
+.client-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    /* or 107% */
+    width: 350px;
+    padding: 10px 0;
+    padding-left: 40px;
+    padding-bottom: 0;
+    color: #444444;
+}
+
+.client-subtitle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 25px;
+    width: 240px;
+ 
+
+
+    color: #037B35;
+
+}
+
+.client-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    width: 220px;
+    padding: 20px 0;
+    color: #050505;
+}
+
+.client-name {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 23px;
+    /* identical to box height, or 177% */
+
+
+    color: #037B35;
+}
+
+.client-box {
+    background: #FFFFFF;
+    box-shadow: 14px 14px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    padding: 30px 20px;
+    width: 270px;
+}
+
+.client-link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    /* or 153% */
+
+
+    color: #FFFFFF;
+    background: #037B35;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 49px;
+    padding: 10px 35px;
+    text-align: center;
+}
+
+.client-subtitr {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42.5382px;
+    line-height: 40px;
+    /* or 94% */
+    width: 400px;
+
+    color: #444444;
+
+}
+
+.client-subject {
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+
+
+    color: #037B35;
+    padding: 10px 0;
+}
+
+.client-slogan {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    /* or 153% */
+    width: 300px;
+
+    color: #363636;
+    padding: 18px 0;
+    padding-top: 0;
+    overflow: hidden;
+max-height: 50px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.client-sublink {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    /* identical to box height, or 164% */
+
+
+    color: #037B35;
+
+    padding: 25px 0;
+}
+
+.client-item {
+    border-top: 1px solid #DADADA;
+    margin-top: 18px;
+}
+
+.client-list {
+    margin-top: 25px;
+}
+
+.client-left {
+    position: relative;
+}
+
+.client-box {
+    position: absolute;
+    top: 44.5%;
+    left: 0;
+}
+
+.client-link {
+    position: absolute;
+    top: 94.5%;
+    left: 31%;
+    background: #037B35;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 49px;
+    transition: 0.3s;
+    color: white;
+    border: 2px solid #037B35;
+}
+
+.client-link:hover {
+    background-color: white;
+    border: 2px solid white;
+    color: #037B35;
+    transform: scale(1.1);
+    color: white;
+}
+
+.content  {
+    position: relative;
+}
+.content-left{
+    position: absolute;
+    top:-23%;
+    left: -2.5%;
+}
+.content-right{
+    
+    width: 600px;
+    padding-right: 100px;
+}
+.content-header .container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.client{
+    padding-top: 80px;
+}
+.client-sublink{
+    transition: 0.3s;
+}
+.client-sublink:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}

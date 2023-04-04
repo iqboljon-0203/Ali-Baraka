@@ -1,0 +1,133 @@
+
+ 
+   
+  
+  
+  .details{
+    /* border-top: 1px solid rgb(211, 206, 206); */
+    
+    margin-top: 25px;
+  }
+  
+  .faq_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+    background-color: #fff;
+  }
+  .faq_list__item{
+    width: 100%;
+    cursor: pointer;
+    padding: 20px;
+    padding-top: 00;
+    
+  }
+  .faq_list__item .text_wrap{
+    flex-grow: 2;
+    background-color: #fff;
+  }
+  
+  .faq_list__item__question_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+    padding: 8px;
+  
+  }
+  
+  .faq_list__item .faq_header{
+    font-weight: bolder;
+    font-size: 16px;
+    margin: 0;
+  
+  }
+  
+ 
+  .faq_list__item .icon{
+    transition: all 0.2s ease;
+  }
+ 
+    .faq_list__item .icon{
+      transition: all 0.2s ease;
+    }
+    
+  .faq_list__item .closer{
+    transform: rotate(45deg);  
+  
+  }
+  .faq_list__item__answer_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    /* border-bottom: 1px solid #00000022; */
+  }
+  
+ 
+  .faq_list__item__answer_wrapper.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  }
+  
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #037B35;
+  border-radius: 10px;
+}
+ .faq_list{
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 350px;
+    overflow-y: scroll;
+ }
+
+ .faq_header{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    /* or 119% */
+    
+    text-transform: uppercase;
+    
+    color: #037B35;
+    overflow: hidden;
+max-height: 80px;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    width: 338px;
+    /* text-align: justify; */
+    
+ }
+ .faq_text{
+    color: #037B35;
+    padding: 15px;
+    padding-left: 7px;
+ }
+.details .faq_list__item:nth-child(even) .faq_header , .details .faq_list__item:nth-child(even) .faq_text {
+    color: #FCBD17;
+}
+.icon{
+    color: #037B35;
+    font-size: 25px;
+}
